@@ -1,4 +1,4 @@
-# 🚀 [2021_하반기]I-ON COMMUNICATIONS
+# 🚀 [2021_하반기] I-ON COMMUNICATIONS
 ## 커리큘럼
 
 
