@@ -7,7 +7,7 @@
 ### 실무기초
 1. [Java(클래스 및 인터페이스, 컬렉션, IO 위주)](#-Week-1) **[40h]**
 2. [HTML5 / CSS3/ ECMAScript 6(ES6) 이후 문법](#-Week-2) **[40h]**
-3. [Spring Boot 기반 RestFul Back-end API / Sp[ring Security / JWT ](#-Week-3) **[40h]**
+3. [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT ](#-Week-3) **[40h]**
 4. [ㅇ](#-Week-4) **[40h]**
 5. [ㅇ](#-Week-5) **[40h]**
 6. [ㅇ](#-Week-6) **[40h]**
