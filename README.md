@@ -1,4 +1,4 @@
-# 🚀 I-ON COMMUNICATIONS
+# ** 🚀 I-ON COMMUNICATIONS **
 ## 커리큘럼
 
 
