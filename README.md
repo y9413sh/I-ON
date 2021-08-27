@@ -1,4 +1,6 @@
 # 🚀 [2021_하반기] I-ON COMMUNICATIONS
+1. 관련기사 : https://zdnet.co.kr/view/?no=20210824102600
+
 ## 🌱 커리큘럼 (21.08.23 ~ 21.11.22)
 
 
