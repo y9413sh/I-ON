@@ -1,4 +1,4 @@
-# 🚀 I-ON COMMUNICATIONS 채용확정형 소프트웨어(SW)개발자 양성과정
+# 🚀 I-ON COMMUNICATIONS
 ## 커리큘럼
 
 
