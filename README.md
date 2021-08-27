@@ -9,11 +9,11 @@
 5. [asdasdasd](#Week-5)
 6. [asdasdasd](#Week-6)
 7. [asdasdasd](#Week-7)
-8. [asdasdasd](#Week-8)
+8. [asdasdasd](#-📚-Week-8)
 9. [asdasdasd](#Week-9)
 
 
-# 📕 Week 1
+## 📕 Week 1
 #### [8.23] 오리엔테이션
 #### [8.24~8.30] Java Programming
 - 8.24 : 개발환경(JavaSE 1.8, STS4.0), Java Docs API
@@ -40,4 +40,4 @@
 ## 📘 
 ## 📔
 ## 📓
-# 📚 Week 8
+## 📚 Week 8
