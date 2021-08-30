@@ -23,7 +23,7 @@
 - 8.24 : 개발환경(JavaSE 1.8, STS4.0), Java Docs API
 - 8.25 : DataType, Operator, 제어문(if), Exception
 - 8.26 : 제어문(switch, for, 확장 for, while, do~while)
-- 8.27 : 배열(Array), 정렬(Sort), 함수(Method), 디버깅(Debuging) 방법, 난수 발생 - 2가지 방법
+- 8.27 : 배열(Array), 정렬(Sort), 함수(Method), 난수 발생 - 2가지 방법
 - 8.30 : 
 ## 📙 [HTML5 / CSS3/ ECMAScript 6(ES6) 이후 문법]
 ## 📒 [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증]
