@@ -1,0 +1,294 @@
+// 2차원 배열의 합
+Scanner sc = new Scanner(System.in);
+		
+int[][] arr = new int[2][3];
+int sum=0;
+		
+for(int i=0; i<arr.length; i++) {
+	for(int j=0; j<arr[i].length; j++) {
+		System.out.print("숫자 입력 : ");
+		arr[i][j]=sc.nextInt();
+		sum+=arr[i][j];
+	}
+}
+		
+System.out.println("배열의 합 : " + sum);
+
+// 성적처리 배열
+Scanner sc = new Scanner(System.in);
+
+int num=2;
+int[][] subject = new int[num][3];
+int kor, eng, com, tot = 0;
+double avg=0;
+String[] name= new String[num];
+char grade=' ';
+
+
+for(int i=0; i<subject.length; i++) {
+	System.out.print("name : ");
+	name[i] = sc.next();
+	sc.nextLine();
+	
+	for(int j=0; j<subject[i].length; j++) {
+		System.out.print((j+1) + " 점수 입력 : ");
+		subject[i][j] = sc.nextInt();
+	}
+	
+}
+
+
+for(int i=0; i<subject.length; i++) {
+	
+	System.out.println(name[i] +"님의 성적표");
+	
+	for(int j=0; j<subject[i].length; j++) {
+		System.out.printf("%d 과목 : %d \t", j+1, subject[i][j]);
+		tot+=subject[i][j];
+	}
+	
+	System.out.println();
+	System.out.printf("총점 : %d \t", tot);
+	
+	avg=tot/subject[i].length;
+	
+	switch((int)avg/10) {
+		case 10:
+		case 9: grade='A'; break;
+		case 8: grade='B'; break;
+		case 7: grade='C'; break;
+		case 6: grade='D'; break;
+		default: grade='F';
+	}
+	
+	System.out.printf("평균 : %.2f \t", avg);
+	System.out.printf("학점 : %c \n", grade);
+}
+
+// int[] a = { 7, 5, 3, 8, 2 }; 배열의 합 구하는 프로그램작성
+package quiz;
+
+public class Quiz_01 {
+	public static void main(String[] args) {
+		
+		int[] a = { 7, 5, 3, 8, 2 };
+		int sum=0;
+		
+		for(int i=0; i<a.length; i++) {
+			sum+=a[i];
+		}
+		
+		System.out.println("배열의 합 : " + sum);
+	}
+}
+
+// 기상청 9월의 강수량 평균을 구하는 프로그램 작성(단, 30일 기준)
+package quiz;
+
+import java.util.Scanner;
+
+public class Quiz_02 {
+
+	public static void main(String[] args) {
+		double[] precipitation = {0, 33.3, 29.8, 0 , 0, 6.4,61.0, 0, 1.3, 3.9, 1.2, 5.7, 0, 0.0, 0, 0.3, 0, 0, 0.3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38.3};
+		double sum=0, avg;
+		for(int i = 0; i<precipitation.length; i++) {
+			sum+=precipitation[i];
+		}
+		avg=sum/30;
+		System.out.println("9월 강수량  : " + avg);
+	}
+}
+
+
+//  int[] a = { 7, 5, 7, 8, 2, 7, 3, 7, 7, 90 };   
+//  int seek = 7;
+
+package quiz;
+
+public class Quiz_03 {
+
+	public static void main(String[] args) {
+		
+		 int[] a = { 7, 5, 7, 8, 2, 7, 3, 7, 7, 90 };
+		 
+         int seek = 7;
+         int count = 0;
+         for(int i=0; i<a.length; i++) {
+        	 if(seek==a[i]) count++;
+         }
+         System.out.println(seek + "의 개수는 " + count + "개입니다.");
+	}
+}
+
+
+// info() {  이름, 연락처, 주소 출력 함수 }
+package quiz;
+
+import java.util.Scanner;
+
+public class Quiz_05 {
+
+	public static void main(String[] args) {
+		info();
+	}
+
+	public static void info() {
+		String name, tel, address;
+		
+		System.out.print("이름 : ");
+		name = new Scanner(System.in).nextLine();
+		System.out.print("전화번호 : ");
+		tel = new Scanner(System.in).nextLine();
+		System.out.print("주소 : ");
+		address = new Scanner(System.in).nextLine();
+		
+		System.out.println("이름 : " + name);
+		System.out.println("전화번호 : " + tel);
+		System.out.println("주소 : " + address);
+	}
+}
+
+
+// abs(int x) { 절댁값 출력하는 함수 만들기 }
+package quiz;
+
+public class Quiz_06 {
+
+	public static void main(String[] args) {
+		System.out.println(abs(-5));
+	}
+	
+	public static int abs(int x) {
+		if(x==0) return 0;
+		else if(x<0) x*=-1;
+		return x;
+	}
+}
+
+
+// max() {   두개 정수 입력 받아서 큰수 리턴 하는 함수 }
+package quiz;
+
+import java.util.Scanner;
+
+public class Quiz_07 {
+
+	public static void main(String[] args) {
+		System.out.println(max());
+	}
+	
+	public static int max() {
+		int x = new Scanner(System.in).nextInt();
+		int y = new Scanner(System.in).nextInt();
+		
+		return x>=y ? x : y;
+	}
+	
+/*
+	public static void main(String[] args) {
+		System.out.println(max(4, 4));
+	}
+	
+	public static int max(int x, int y) {
+		return x>=y ? x : y;
+	}
+*/
+}
+
+/*
+	성적처리 프로그램 함수로 분할(분리)할것
+	입력 함수 input()  - 이름 , 국어, 영어,전산 점수 
+	총점 함수 total(~~~) - 총점 구하는 함수
+	평균 함수 average( ~~ ) - 평균 구하는 함수
+	평점(학점) grade( ~~ ) - 학점 구하는 함수 
+	출력 함수 output( ) - 결과 출력하는 함수
+*/
+
+package quiz;
+
+import java.util.Scanner;
+
+public class Quiz_08 {
+
+	static String name;
+	static int kor;
+	static int eng;
+	static int math;
+	static char grade;
+	
+	public static void main(String[] args) {
+		input();
+		output();
+	}
+	
+	
+	public static void input() {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.print("이름 : ");
+		name=sc.nextLine();
+		System.out.print("국어 : ");
+		kor=sc.nextInt();
+		System.out.print("영어 : ");
+		eng=sc.nextInt();
+		System.out.print("전산 : ");
+		math=sc.nextInt();
+		
+	}
+	
+	public static int total() {
+		return kor+eng+math;
+	}
+	
+	public static double average(int total) {
+		return total/3;
+	}
+	
+	public static char grade(double avg) {
+		switch((int)avg/10) {
+			case 10:
+			case 9: return 'A';
+			case 8: return 'B';
+			case 7: return 'C';
+			case 6: return 'D';
+			default: return 'F';
+		}
+	}
+	
+	public static void output() {
+		System.out.println("---- " + name + "님의 성적표 ----");
+		System.out.println("국어 : " + kor);
+		System.out.println("영어 : " + eng);
+		System.out.println("수학 : " + math);
+		System.out.println("총점 : " + total());
+		System.out.println("평균 : " + average(total()));
+		System.out.println("학점 : " + grade(average(total())));
+	}
+}
+
+
+// loopLine() { ------------------- 6번 출력하는 함수  }
+
+package quiz;
+
+import java.util.Scanner;
+
+public class Quiz_09 {
+
+	public static void main(String[] args) {
+		
+		loopLine();
+		
+	}
+
+	public static void loopLine() {
+		
+		System.out.println("몇 번? : ");
+		int count = new Scanner(System.in).nextInt();
+		
+		for(; 0<count; count--) {
+			System.out.println("-------------------");
+		}
+	}
+}
