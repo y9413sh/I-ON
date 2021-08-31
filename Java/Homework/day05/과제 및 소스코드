@@ -1,0 +1,317 @@
+// 합/불 판정 if
+package quiz;
+
+import java.util.Scanner;
+
+public class Quiz_IF {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int kor = sc.nextInt();
+		int eng = sc.nextInt();
+		int math = sc.nextInt();
+		
+		boolean a = false;
+		int avg=(kor+eng+math)/3;
+		
+		if(avg>=60)
+			a=true;
+		else
+			a=false;
+		
+		if(kor<=40 || eng<=40 || math<=40) a=false;
+		
+		if(a==true)
+			System.out.println("합격");
+		else if(a==false)
+			System.out.println("불합격");
+		
+	}
+}
+
+// 합/불판정 switch
+package quiz;
+
+import java.util.Scanner;
+
+public class Quiz_2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int kor = sc.nextInt();
+		int eng = sc.nextInt();
+		int math = sc.nextInt();
+
+		int avg=(kor+eng+math)/3;
+		
+		switch((int)avg/10) {
+			case 10:
+			case 9:
+			case 8:
+			case 7:
+			case 6:
+				switch(kor<=40 ? "kor" : eng<=40 ? "eng" : math<=40 ? "math" : "합격") {
+					case "kor":
+					case "eng":
+					case "math":
+						System.out.println("불합격");
+						break;
+					case "합격":
+						System.out.println("합격");
+				}
+				break;
+			default:
+				System.out.println("불합격");
+		}
+	}
+}
+
+// 원하는 구구단
+public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int n=sc.nextInt();
+		
+		for(int i=1; i<10; i++) {
+			System.out.printf("%d * %d = %d \n", n, i ,n*i);
+		}
+}
+
+// 전체 구구단
+public static void main(String[] args) {
+		for(int i=1; i<10; i++) {
+			for(int j=1; j<10; j++) {
+				System.out.printf("%d * %d = %d \t", j, i ,i*j);
+			}
+			System.out.println();
+		}
+}
+
+// 3의 배수와 합
+package quiz;
+
+/*
+ * 문제] 1~100 중에서 3의 배수의 개수와 합을 구하세요.
+ */
+
+public class Quiz_Control {
+
+	public static void main(String[] args) {
+		int num=0;
+		int sum=0;
+		
+		for(int i=1; i<=100; i++) {
+			if(i%3==0) {
+				num++;
+				sum+=i;
+			}
+		}
+		System.out.println("개수 : " + num);
+		System.out.println("합 : " + sum);
+	}
+}
+
+// 구구단 while
+package quiz;
+
+public class Quiz_MultiWhile {
+
+	public static void main(String[] args) {
+		
+		int a=1;
+		while(a<10) {
+			int b=1;
+			while(b<10) {
+				System.out.printf("%d * %d = %d \t", b, a, b*a);
+				b++;
+			}
+			System.out.println();
+			a++;
+		}
+	}
+}
+
+// 성적처리 프로그램
+/*
+ * 과제] 성적처리 프로그램 작성
+ * 이름, 국어, 전산, 영어 점수 입력 받아 총점, 평균, 학점 구하기
+ * 
+ * 결과>
+ * 이도연 님의 성적표 *****
+ * 국어:100, 전산:100, 영어:100
+ * 총점:300, 평균:100.00, 평점(학점):A
+ * 
+ * 전제조건: 점수 0~100점 사이값만 입력 받기
+ * 예외처리
+ * y/n 입력 받아서 계족 할지 여부 처리
+ */
+
+package quiz;
+
+import java.util.Scanner;
+
+public class Quiz_01 {
+
+	public static void main(String[] args) throws Exception {
+		Scanner sc = new Scanner(System.in);
+		String[] arr = {"국어", "수학", "영어", "총점", "평균", "학점"};
+		int[] data= new int[5];
+		char grade=' ';
+		
+		System.out.print("이름 입력 : ");
+		String name=sc.next();
+		
+		while(true) {
+			int a=0;
+			do {
+					System.out.print(arr[a] + " 점수 0~100 값만 입력 : ");
+					data[a]=sc.nextInt();
+					reload: {
+						if(data[a]<0 || data[a]>100) continue;
+					}
+					a++;
+			} while(a<3);
+			
+			answer: {
+				System.out.print("재입력 하시겠습니까? (y/n) ");
+				char yn = sc.next().charAt(0);
+				if(yn=='y') continue;
+				else if(yn=='n') break;
+				else continue;
+			}
+		}
+		
+		for(int i=0; i<3; i++) data[3]+=data[i]; //총점
+		
+		data[4]=data[3]/3; //평균
+		switch(data[4]/10) {
+			case 10: grade='A'; break;
+			case 9: grade='B'; break;
+			case 8: grade='C'; break;
+			case 7: grade='D'; break;
+			default:
+				grade='F';
+		}
+		
+		System.out.println(name + "님의 성적표");
+		for(int j=0; j<arr.length; j++) {
+			if(j<3)	System.out.print(arr[j]+":"+data[j]+" ");
+			else if(j==3) System.out.println("\n"+arr[j]+":"+data[3]);
+			else if(j==4) System.out.print(arr[j]+":"+data[4]+" ");
+			else if(j==5) System.out.println(arr[j]+":"+grade);
+		}
+	}
+
+}
+
+// 1 + (1 + 2) + (1 + 2 + 3) + (1 + 2 + 3 + 4) + (1 + 2 + 3 + 4 + 5) = ?
+public class Week_01 {
+	public static void main(String[] args) {
+		int answer=0;
+		int[] data= new int[5];
+		for(int i=5; i>0; i--) {
+			for(int j=1; j<=i; j++) {
+				answer+=j;
+			}
+		}
+		System.out.println(answer);
+	}
+}
+
+// (-1) + 2 + (-3) + 4 + (-5) + ... + (-9) + 10 = ?
+package quiz;
+
+public class Week_02 {
+//(-1) + 2 + (-3) + 4 + (-5) + ... + (-9) + 10 = ?
+	public static void main(String[] args) {
+		int sum=0;
+		for(int i=2;i<=10;i+=2) sum+=i;
+		for(int j=-1; j>-10; j-=2) sum+=j;
+		System.out.println(sum);
+	}
+}
+
+// 1/2 + 2/3 + 3/4 + 4/5 + 5/6 + 6/7 + 7/8 + 9/10 = ?
+package quiz;
+
+public class Week_03 {
+//과제3] 1/2 + 2/3 + 3/4 + 4/5 + 5/6 + 6/7 + 7/8 + 9/10 = ?
+	public static void main(String[] args) {
+		float answer=0;
+		for(float i=1, j=2; j<=10 ; i++, j++) {
+			answer+=(i/j);
+		}
+		System.out.println(answer);
+	}
+}
+
+// 1~ 10까지 출력하는 프로그램 작성 (for문 )
+// 1~ 100까지 합을 출력하는 프로그램 작성
+// 1~ 100까지 중에서 짝수 출력하고 한행에 10개씩 출력
+package quiz;
+
+public class Week_04 {
+	public static void main(String[] args) {
+		for(int i=1; i<=10; i++) //과제4
+			System.out.println(i);
+		
+		System.out.println("==============");
+		
+		int sum=0; //과제 5
+		for(int j=1; j<=100; j++) {
+			sum+=j;
+		} System.out.println(sum);
+		
+		System.out.println("==============");
+		
+		for(int a=1; a<=100; a++) { //과제6
+			if(a%2==0) System.out.print(a + " ");
+			if(a%10==0) System.out.println();
+		}
+	}
+}
+
+// 대문자 <--> 소문자 변경 프로그램 작성 ( if )
+Scanner sc = new Scanner(System.in);
+
+System.out.print("알파벳 입력 : ");
+String convert = sc.next();
+sc.nextLine();
+char[] arr = new char[convert.length()];
+
+for (int i = 0; i < convert.length(); i++) {
+    if (convert.charAt(i) >= 65 || convert.charAt(i) <= 90)
+        arr[i] = (char) (convert.charAt(i) + 32);
+    if (convert.charAt(i) <= 122 || convert.charAt(i) >= 97) {
+        arr[i] = (char) (convert.charAt(i) - 32);
+    }
+}
+
+for (int j = 0; j < arr.length; j++) {
+    System.out.print(arr[j]);
+}
+
+//두수 입력 받아서 나눗셈 하는 프로그램 작성 (예외처리)
+- 숫자가 아닌 문자 입력 됐을때.
+- 정수가 아닌 실수 데이터 입력 됐을때.
+- 어떤 수를 0으로 나눌 수 없다.
+
+while(true) {
+    try {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("첫 번째 정수 입력 : ");
+        int x = sc.nextInt();
+        System.out.print("두 번째 정수 입력 : ");
+        int y = sc.nextInt();
+        System.out.println("x 나누기 y 는 " + x/y +"입니다.");
+        break;
+    } catch (InputMismatchException e) {
+        System.out.println("실수나 문자는 입력할 수 없습니다. (재입력)");
+        continue;
+    } catch (ArithmeticException e) {
+        System.out.println("0은 입력 불가합니다. (재입력)");
+        continue;
+    }
+}
