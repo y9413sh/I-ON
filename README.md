@@ -19,7 +19,7 @@
 
 ## 📕 Java (클래스 및 인터페이스, 컬렉션, IO 위주) 
 #### [8.23] 오리엔테이션
-#### [8.24~8.30] Java Programming
+#### [8.24~9.03] Java Programming
 - 8.24 : 개발환경(JavaSE 1.8, STS4.0), Java Docs API
 - 8.25 : DataType, Operator, 제어문(if), Exception
 - 8.26 : 제어문(switch, for, 확장 for, while, do~while)
@@ -27,7 +27,12 @@
 - 8.30 : 오버로드(Overload), 디버깅(Debuggin), 가변길이 배열, Object-Oriented Programming, 생성자, this, 상속
 - 8.31 : Override, javadoc API, 추상클래스, 인터페이스, 사용자정의 예외처리, Object API, Static Member, 진수변환
 - 9.01 : String, Wrapper, StringBUffer, Calendar, StringTokenizer, Collections
+- 9.02 :
+- 9.03 :
 ## 📙 [HTML5 / CSS3/ ECMAScript 6(ES6) 이후 문법]
+#### [9.03~] Web Programming
+- 9.03 :
+- 9.06 : 
 ## 📒 [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증]
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 ## 📘 
