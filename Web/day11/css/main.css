@@ -1,0 +1,73 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transition: 0.1s;
+}
+
+.box:focus {
+    width: 300px;
+    background-color: royalblue;
+}
+
+.box:hover {
+    width: 100px;
+    background-color: salmon;
+}
+
+.box:hover {
+    width: 100px;
+    background-color: salmon;
+}
+
+input{ }
+
+input:focus {
+    background-color: salmon;
+}
+
+.img {
+    border: 5px solid yellow;
+}
+
+#img_house {
+    border: 3;
+}
+
+/* div, input, img {
+    color: pink;
+} */
+
+div span {
+    text-align: center;
+}
+
+.fruits span:first-child {
+    color: purple;
+}
+/* .fruits *:last-child {
+    color: green;
+} */
+
+.fruits *:nth-child(n+2) {
+    color: tomato;
+}
+
+th, td {
+    width: 100px;
+    border: 1px solid blue;
+}
+
+table {
+    text-align: center;
+}
+
+#f {
+    width: 50px;
+    height: 30px;
+}
+
+.bullet li {
+    /* display: none; */
+    text-decoration: none;
+}
