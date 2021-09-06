@@ -5,10 +5,10 @@
 
 ## 🌱 커리큘럼 (21.08.23 ~ 21.11.22)
 ### 실무기초
-1. [Java(클래스 및 인터페이스, 컬렉션, IO 위주)](#-java-클래스-및-인터페이스-컬렉션-IO-위주) **[40h]**
-2. [HTML5 / CSS3/ ECMAScript 6(ES6) 이후 문법](#-html5--css3-ecmascript-6es6-이후-문법) **[40h]**
-3. [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증](#-spring-boot-기반-restful-back-end-api--spring-security--jwt-인증) **[40h]**
-4. [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)](#-oracle-db-모델링--sql--mybatissql-developer의-data-modeler-이용) **[40h]**
+1. [Java(클래스 및 인터페이스, 컬렉션, IO 위주)](#-java-클래스-및-인터페이스-컬렉션-IO-위주)
+2. [HTML5 / CSS3/ ECMAScript 6(ES6) 이후 문법](#-html5--css3-ecmascript-6es6-이후-문법)
+3. [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증](#-spring-boot-기반-restful-back-end-api--spring-security--jwt-인증)
+4. [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)](#-oracle-db-모델링--sql--mybatissql-developer의-data-modeler-이용)
 5. [ㅇ](#-Week-5) **[56h]**
 6. [ㅇ](#-Week-6) **[40h]**
 7. [ㅇ](#-Week-7) **[40h]**
