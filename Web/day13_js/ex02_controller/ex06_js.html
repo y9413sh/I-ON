@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p { font-size: 20pt; color: red;}
+    </style>
+    <script>
+        function aa() {
+            let irum = '김연아'
+            document.getElementById('valueInput').innerHTML=irum;
+            document.getElementById('name3').value = name2 = document.getElementById('name2').value;
+        }
+
+        document.write('<font color="blue" size="5"> javascript 이용한 출력입니다.</font>')
+
+        const hello = function() {
+            alert("hello!!!");
+        }
+    </script>
+</head>
+<!-- <body onload="hello()"> -->
+<body onload="javascript:alert('궁금해')">
+    <div class="red" onclick="javascript:alert('빨강')">Red</div>
+    <button onclick="aa();">red</button>
+    <div id="valueInput"></div>
+    <input type="text" id="name2" value="강감찬">
+    <input type="text" id="name3" value="name3">
+    <hr>
+    <p class="strChange">HTML 문서 내에 기재된 텍스트 입니다.</p>
+</body>
+</html>
