@@ -1,0 +1,16 @@
+body {
+    margin-left: 50%;
+}
+
+table {
+    border: 4px black;
+    border-style:double;
+}
+
+td {
+    height: 30px;
+    border: 1px black;
+    vertical-align: middle;
+    border-style: solid;
+    background-color: aliceblue;
+}
