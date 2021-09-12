@@ -34,6 +34,10 @@
 #### [9.03~] Web Programming
 - 9.03 : VSCode 개발환경, HTML 기본문법
 - 9.06 : HTML 기본 문법, emmit 코드, 주석, CSS(inline, internal, external), CSS 기본문법
+- 9.07 : HTML Tag, CSS 속성
+- 9.08 : JavaScript, 주석, function, 비교연산자
+- 9.09 : Variable Scope, Arrow Function, 즉시 실행 함수, Timer, 콜백, 클래스(리터럴, 함수, 프로토타입, 자바)
+- 9.10 : Starbucks 홈페이지 만들기(미니 프로젝트)
 ## 📒 [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증]
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 ## 📘 
