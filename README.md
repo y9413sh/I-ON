@@ -38,6 +38,7 @@
 - 9.08 : JavaScript, 주석, function, 비교연산자
 - 9.09 : Variable Scope, Arrow Function, 즉시 실행 함수, Timer, 콜백, 클래스(리터럴, 함수, 프로토타입, 자바)
 - 9.10 : Starbucks 홈페이지 만들기(미니 프로젝트)
+- 9.13 : JS CDN, 디자인 패턴, 데이터베이스(팀과제)
 ## 📒 [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증]
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 ## 📘 
