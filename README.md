@@ -42,7 +42,8 @@
 - 9.14 : JQuery, AJAX, 팀미니프로젝트
 
 ## 📒 [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증]
-- 9.15 : 
+- 9.15 : 팀미니프로젝트, STS, Spring Framework, Spring MVC, Maven
+- 
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 ## 📘 
 ## 📔
