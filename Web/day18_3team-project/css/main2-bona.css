@@ -1,0 +1,10 @@
+body{
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+pre{
+    /*  */
+    font-size: 16px;
+    line-height: 25px;
+}

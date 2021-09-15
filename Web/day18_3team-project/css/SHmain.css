@@ -1,0 +1,265 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+    background-color: beige;
+}
+
+header {
+    height: 150px;
+    background-color: #333;
+    border-bottom: 10px solid gray;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .logo {
+    padding: 98px;
+    font-size: 36pt;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px gray;
+}
+
+header .logo:hover {
+    color: yellow;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+header .box {
+    width: 330px;
+    margin: 0 auto;
+}
+
+header .box .front {
+    top: -70px;
+    width: 330px;
+    height: 330px;
+    border-radius: 70%;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid grey;
+    box-shadow: 1px 3px 10px gray;
+    z-index: 2;
+    transform: rotateY(0deg);
+    background-size: 100% 100%;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+
+header .box .front:hover {
+    transform: rotateY(180deg);
+}
+
+.about {
+    width: 100%;
+    position: absolute;
+}
+
+.about .box {
+    width: 165px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+
+.about .box .profile {
+    top: 380px;
+    width: 30px;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #333;
+    box-shadow: 3px 3px 3px;
+    border-radius: 70%;
+    font-weight: bold;
+    background-color: #333;
+}
+
+.about .box .profile:hover {
+    background-color: white;
+    color: mediumpurple;
+    border: 1px solid mediumpurple;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+.about .mini-box {
+    width: 100%;
+    font-size: 10pt;
+    position: absolute;
+}
+
+.about .mini-box .profile-mini {
+    top: 390px;
+    width: 310px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.about .mini-box .profile-mini .hash-tag {
+    top: 400px;
+    width: auto;
+    float: left;
+    margin: 2px;
+    padding: 5px;
+    color: #333;
+    border: 1px solid #333;
+    box-shadow: 3px 3px 3px;
+    border-radius: 30px;
+    background-color: snow;
+}
+
+.about .mini-box .profile-mini .hash-tag:hover {
+    background-color: palegreen;
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.about .mini-box .profile-mini .hash-link {
+    top: 400px;
+    width: auto;
+    float: left;
+    margin: 2px;
+    padding: 5px;
+    color: tomato;
+    border: 1px solid tomato;
+    box-shadow: 3px 3px 3px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.about .mini-box .profile-mini .hash-link:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(1.3);
+}
+
+#clock {
+    text-align: center;
+}
+
+.case {
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.case .inner .swiper-description {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.case .inner img {
+    width: 60px;
+    margin: auto;
+}
+
+.case .swiper-container {
+    width: 61px;
+}
+
+.case .swiper-prev,
+.case .swiper-next {
+    width: 42px;
+    height: 42px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: .3;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.case .swiper-prev {
+    left: -100px;
+}
+
+.case .swiper-next {
+    right: -100px;
+}
+
+.case .swiper-prev:hover,
+.case .swiper-next:hover {
+    height: 42px;
+    background-color: black;
+    color: white;
+}
+
+
+.story {
+    width: 100%;
+    position: absolute;
+}
+
+.story .bt-back {
+    margin: 0 auto;
+}
+
+.story .posting {
+
+    margin: 30px auto;
+    padding: 10px;
+    width: 400px;
+    height: 380px;
+    border: 1px solid #333;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.story .posting:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.story .posting img {
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    padding: 0;
+    position: relative;
+    border-bottom: 1px solid #333;
+}
+
+.story .bt-list {
+    margin: 30px auto;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.story .bt-list .bt-back {
+    margin: 0 auto;
+}
+
+.story .bt-list:hover {
+    background-color: whitesmoke;
+    transition: 0.2s;
+    transform: scale(1.1);
+}

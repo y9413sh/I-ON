@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="./css/main1-bona.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    
+    
+    <title>자기소개</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> 미신으로 알아보는 인물탐구 : 구본아 </h1>
+
+    <section class=imgarea>
+        <div class="imgcard">
+            <a href="index2-bona.html">
+            <img class="imgcard1" onclick="location.href='index2-bona'" src="../images/INTJ.png" alt="INTJ" >
+            </a>
+            <img class="imgcard1" id="card1" src="../images/bloodtype.png" alt="카드2" >
+            <img class="imgcard1" id="card2" src="../images/birth.PNG" alt="카드3" >
+            <img class="imgcard1" id="card3" src="../images/twin.PNG" alt="카드3" >
+        </div>
+    </section>
+
+
+    <div class=textarea>
+        <ul>
+            <li>MBTI : INTJ-A</li>
+            <li>bloodtype : O형</li>
+            <li>출생순서 : 둘째 </li>
+            <li>별자리 : 쌍둥이자리 </li>
+        </ul>
+        <div class="btn" style="text-align: center;">
+            <a href="https://app.m-nitpick.com/v1/web/event/11/public">
+                <input type="button"  value="다른 성격테스트 GO !"  >
+            </a>
+        </div>
+    </div>
+    
+    <script>
+        $('#card1').click(function(){
+            $(this).attr("src", "/images/bloodtype2.png")
+        });
+
+        $('#card2').click(function(){
+            $(this).attr("src", "/images/birth2.png")
+        });
+
+        $('#card3').click(function(){
+            $(this).attr("src", "/images/twin2.png")
+        });
+
+    </script>
+
+
+
+
+    
+</body>
+</html>
+
+
+

@@ -1,0 +1,73 @@
+body{
+  margin: auto;
+  text-align: center;
+  background-image: url('../images/whi.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  
+}
+th {
+  width: 10%;
+}
+.back{
+text-align: left;  
+}
+.back img {
+  padding-left: 1%;
+  padding-top: 1%;
+  width: 30px;
+  height: 30px;
+}
+h3 {
+  padding-bottom: 5%;
+}
+table.tb_lee {
+  border-collapse: collapse;
+  text-align: center;
+  line-height: 2.5;
+
+}
+table.tb_lee thead th {
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #369;
+  border-bottom: 3px solid #036;
+  
+}
+table.tb_lee tbody th {
+  width: 180px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: auto;
+  border-bottom: 1px solid #ccc;
+  background: #f3f6f7;
+}
+table.tb_lee td {
+  width: 100%;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+button {
+    border: none;
+    outline:none;
+}
+button:hover{
+  color: aqua;
+  cursor: default;
+}
+#name:hover{
+  color: #036;
+}
+#bb {
+  border: none;
+    outline:none;
+}
+#bb:hover {
+  color: bisque;
+  cursor: pointer;
+}

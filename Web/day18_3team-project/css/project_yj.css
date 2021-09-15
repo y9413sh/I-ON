@@ -1,0 +1,89 @@
+/* COMMON */
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+    background-color: rgba(255, 228, 196, 0.699);
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* INNER */
+.inner {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #F6F5F0;
+    border-bottom: rgba(128, 128, 128, 0.164) solid 1px;
+}
+
+header .inner {
+    height: 50px;
+}
+
+header .logo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+/* SECTION */
+section {
+    height: 100vh;
+    margin: 0 auto;
+}
+
+section .inner {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* PROJECT-LIST */
+.project-list {
+
+}
+
+.project-list .inner {
+   text-align: center;
+}
+
+.project-list .project{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(255, 127, 80, 0.479);
+    border-radius: 30px;
+}
+
+.project-list .project:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.project-list .project img {
+    max-width: 100%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.project-list .project .discription{
+    z-index: 10;
+    padding-top: 30px;
+}
