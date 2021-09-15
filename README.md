@@ -40,7 +40,9 @@
 - 9.10 : Starbucks 홈페이지 만들기(미니 프로젝트)
 - 9.13 : JS CDN, 디자인 패턴, 데이터베이스(팀과제)
 - 9.14 : JQuery, AJAX, 팀미니프로젝트
+
 ## 📒 [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증]
+- 9.15 : 
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 ## 📘 
 ## 📔
