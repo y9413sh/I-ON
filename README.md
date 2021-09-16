@@ -19,7 +19,7 @@
 
 ## 📕 Java (클래스 및 인터페이스, 컬렉션, IO 위주) 
 #### [8.23] 오리엔테이션
-#### [8.24~9.03] Java Programming (day2~day10)
+#### [8.24-9.03] Java Programming (day2~day10)
 - 8.24 : 개발환경(JavaSE 1.8, STS4.0), Java Docs API
 - 8.25 : DataType, Operator, 제어문(if), Exception
 - 8.26 : 제어문(switch, for, 확장 for, while, do~while)
@@ -31,7 +31,7 @@
 - 9.03 : File IO
 
 ## 📙 [HTML5 / CSS3/ ECMAScript 6(ES6) 이후 문법]
-#### [9.03~9.14] Web Programming (day10~day18)
+#### [9.03-9.14] Web Programming (day10~day18)
 - 9.03 : VSCode 개발환경, HTML 기본문법
 - 9.06 : HTML 기본 문법, emmit 코드, 주석, CSS(inline, internal, external), CSS 기본문법
 - 9.07 : HTML Tag, CSS 속성
@@ -43,7 +43,7 @@
 - 9.15 : 팀미니프로젝트
 
 ## 📒 [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증]
-#### [9.15~] Spring Framework (day18~)
+#### [9.15-] Spring Framework (day18~)
 - 9.15 : 팀미니프로젝트, STS, Spring Framework, Spring MVC, Maven
 - 9.16 : Servlet, Jsp, Spring Framework, IoC, Beans, POJO, DI, 결합도, 응집도 
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
