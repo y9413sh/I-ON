@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="ex02.di.ScoreImpl" id="score">
+ 		<constructor-arg name="kor" value="100"></constructor-arg>
+		<constructor-arg name="eng" value="12"></constructor-arg>
+		<constructor-arg name="com" value="50"></constructor-arg>
+		
+<!-- 		<property name="kor" value="100"></property>
+		<property name="eng" value="12"></property>
+		<property name="com" value="52"></property> -->
+	</bean>
+	
+	<bean id="show" class="ex02.di.ScoreShowImpl">
+		<constructor-arg ref="score"></constructor-arg>
+	</bean>
+</beans>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="messageBeanImpl" name="m1, m2, xyz, ㅡㄷㄴㄴㅁㅎㄷ" class="ex01.di.MessageBeanImpl">
+		<!-- <constructor-arg value="강감찬"></constructor-arg>
+		<constructor-arg><value>안녕하세요</value></constructor-arg> -->
+		
+		<constructor-arg index='1' value="많이 반가워요~"></constructor-arg>
+		<constructor-arg index='0' value="많이 반가워요~"></constructor-arg>
+	
+		<property name="name"><value>김연아</value></property>
+		<property name="greeting" value="방가방가"></property>
+	</bean>
+	
+	
+</beans>

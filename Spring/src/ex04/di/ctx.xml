@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="student" class="ex04.di.Student">
+		<!-- constructor -->
+		<constructor-arg type="String" name="name" value="홍길동"></constructor-arg>
+		<constructor-arg type="String" name="job" value="대학생"></constructor-arg>
+		<constructor-arg type="String" name="school" value="서울대학교"></constructor-arg>
+	</bean>
+	
+	<bean id="worker" class="ex04.di.Worker">
+		<!-- setter -->
+		<property name="name" value="길동이"></property>
+		<property name="job" value="회사원"></property>
+		<property name="company" value="아이온커뮤니케이션즈"></property>
+	</bean>
+
+	<bean id="studentShow" class="ex04.di.StudentShowImpl">
+		<property name="student" ref="student"></property>
+	</bean>
+	
+	<bean id="workerShow" class="ex04.di.WorkerShowImpl">
+		<property name="worker" ref="worker"></property>
+	</bean>
+
+</beans>
