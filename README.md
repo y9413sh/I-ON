@@ -45,7 +45,8 @@
 ## 📒 [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증]
 #### [9.15-] Spring Framework (day18~)
 - 9.15 : 팀미니프로젝트, STS, Spring Framework, Spring MVC, Maven
-- 9.16 : Servlet, Jsp, Spring Framework, IoC, Beans, POJO, DI, 결합도, 응집도 
+- 9.16 : Servlet, Jsp, Spring Framework, IoC, Beans, POJO, DI, 결합도, 응집도
+- 9.17 : Spring 구조 DI(Constructor, property)
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 ## 📘 
 ## 📔
