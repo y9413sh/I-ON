@@ -47,7 +47,7 @@
 - 9.15 : 팀미니프로젝트, STS, Spring Framework, Spring MVC, Maven
 - 9.16 : Servlet, Jsp, Spring Framework, IoC, Beans, POJO, DI, 결합도, 응집도
 - 9.17 : Spring 구조 DI(Constructor, property)
-- 9.18 : Spring AOP
+- 9.18 : Annotaition, Initializing & Disposable Bean, AOP
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 ## 📘 
 ## 📔
