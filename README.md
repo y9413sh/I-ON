@@ -50,9 +50,10 @@
 - 9.23 : Annotaition, Initializing & Disposable Bean, AOP
 - 
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
-#### [9.24-] Spring Framework (day25~)
+#### [9.24-] Spring Framework (day22~)
 - 9.24 : Orcale 19C DBMS, Oracle SQL Developer Setting
 - 9.27 : SQL(DDL, DML, DCL), 제약조건
+- 9.28 : 
 - 
 ## 📘 
 ## 📔
