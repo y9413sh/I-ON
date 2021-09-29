@@ -53,8 +53,8 @@
 #### [9.24-] Spring Framework (day22~)
 - 9.24 : Orcale 19C DBMS, Oracle SQL Developer Setting
 - 9.27 : SQL(DDL, DML, DCL), 제약조건
-- 9.28 : 함수, GROUP BY, JOIN
-- 
+- 9.28 : 그룹(집합)함수, 숫자&문자... 함수, 정규식, JOIN
+- 9.29 : SubQuery, 스칼라, 인라인 뷰, View, Sequence, Union
 ## 📘 
 ## 📔
 ## 📓
