@@ -43,18 +43,19 @@
 - 9.15 : 팀미니프로젝트
 
 ## 📒 [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증]
-#### [9.15-] Spring Framework (day18~day21, )
+#### [9.15-] Spring Framework (day18~day21, day26~)
 - 9.15 : 팀미니프로젝트, STS, Spring Framework, Spring MVC, Maven
 - 9.16 : Servlet, Jsp, Spring Framework, IoC, Beans, POJO, DI, 결합도, 응집도
 - 9.17 : Spring 구조 DI(Constructor, property)
 - 9.23 : Annotaition, Initializing & Disposable Bean, AOP
-- 
+- 9.30 :
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
-#### [9.24-] Spring Framework (day22~)
+#### [9.24-] Spring Framework (day22~day26)
 - 9.24 : Orcale 19C DBMS, Oracle SQL Developer Setting
 - 9.27 : SQL(DDL, DML, DCL), 제약조건
 - 9.28 : 그룹(집합)함수, 숫자&문자... 함수, 정규식, JOIN
 - 9.29 : SubQuery, 스칼라, 인라인 뷰, View, Sequence, Union
+- 9.30 : PL/SQL
 ## 📘 
 ## 📔
 ## 📓
