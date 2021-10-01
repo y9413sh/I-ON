@@ -49,6 +49,8 @@
 - 9.17 : Spring 구조 DI(Constructor, property)
 - 9.23 : Annotaition, Initializing & Disposable Bean, AOP
 - 9.30 : Servlet, JSP, Spring JDBC 연동, DAO, VO, Controller
+- 10.1 : Stpring MVC, Annotation, JSP, Servlet
+
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 #### [9.24-] Spring Framework (day22~day26)
 - 9.24 : Orcale 19C DBMS, Oracle SQL Developer Setting
@@ -56,6 +58,7 @@
 - 9.28 : 그룹(집합)함수, 숫자&문자... 함수, 정규식, JOIN
 - 9.29 : SubQuery, 스칼라, 인라인 뷰, View, Sequence, Union
 - 9.30 : PL/SQL
+
 ## 📘 
 ## 📔
 ## 📓
