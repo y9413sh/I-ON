@@ -51,6 +51,7 @@
 - 9.30 : Servlet, JSP, Spring JDBC 연동, DAO, VO, Controller
 - 10.1 : Stpring MVC, Annotation, JSP, Servlet
 - 10.5 : SpringMVC + MyBatis 연동
+- 10.6 : Spring Boot, Restful API
 
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 #### [9.24-] Spring Framework (day22~day26)
