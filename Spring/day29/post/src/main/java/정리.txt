@@ -1,0 +1,44 @@
+ReadMe.md
+
+JSON
+String:value
+number:value
+boolean:value
+Object:value{}
+array:value{}
+
+{
+    "phone_number" : "010-1234-5678", // 스네이크케이스 : phone_number, 카멜케이스 : phoneNumber
+    "age" : 10,
+    "isAgree" : false,
+    "account" :
+    [
+        {
+            "email" : "kingsmile@gmail.com",
+           "password" : "1234"
+        },
+        {
+        "email" : "aaaaaaa@gmail.com",
+        "password" : "3333"
+        }
+    ]
+}
+
+{
+    "user_list" : [
+                    {
+
+                    }
+                  ],
+                  [
+                  ]
+}
+
+{
+    "account" : "이도연",
+    "email" : "kosa@kosa.or.kr",
+    "address" : "서울 연희동",
+    "password" : "1004",
+    "phone_number" : "010-1234-1234"
+}
+
