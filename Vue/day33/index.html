@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+
+        <app-header v-bind:title="str"></app-header>
+        <app-contents
+            
+            v-bind:on-change="changeStr"
+        ></app-contents>
+
+        
+    </div>
+    <script>
+        Vue.config.devtools = true;
+        new Vue({
+            el: '#app',
+            data: {
+                str: '프롭스 문자열',
+            },
+            methods: {
+                changeStr : function() {
+                    this.str = '변경됐습니다.'
+                }
+            },
+            components: {
+                'app-header': {
+                    props: ['title'],
+                    template: '<h1>{{title}}</h>'
+                },
+                'app-contents': {
+                    props: ['onChange'],
+                    // template: '<main>컨텐츠<button v-on:click="change">메시지 변경</button></main>',
+                    template:  '<main>컨텐츠<button v-on:click="onChange">메시지 변경</button></main>',
+                    methods: {
+                        change() {
+                            this.$emit('change')
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
