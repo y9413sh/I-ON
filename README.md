@@ -55,6 +55,8 @@
 - 10.7 : Spring Restful API, Lombok
 - 10.8 : Spring JPA
 - 10.12 : Spring Security
+- 10.13 : Vue.js 개발환경 세팅 및 기초
+- 10.14 : 뷰 인스턴스, 뷰 컴포넌트 간 통신, 부동산 웹 예제
 
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 #### [9.24-] Spring Framework (day22~day26)
