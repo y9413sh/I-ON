@@ -31,10 +31,10 @@
   <div v-for="(p, i) in products" :key="i">
   
 
-    <img src= "./assets/1.jpg">
+    <img src= "./assets/room2.jpg">
     <!-- <h4 :style="type"> {{products[i]}}원룸 </h4> 스타일 직접넣기 -->
     <h4 @click="isModalOpen =true"> {{products[i]}}원룸 </h4>
-    <p> {{price}}만원</p>
+    <p> {{prices}}만원</p>
     
     <button @click="increase(i)">허위매물신고</button>
     <span>신고수:{{counts[i]}}</span>
@@ -68,8 +68,7 @@ export default {
   name: 'App',
   data(){
     return {
-      price: 70,
-      price2: 50,
+      prices: [70, 50, 30],
       type: 'color: red',
       menus :['home', 'shop', 'products','about'],
       products:['서대문구', '관악구','강서구'],
@@ -79,7 +78,7 @@ export default {
   },
   methods :{
     increase(i) {
-      this.$set(this.counts,i,this.counts[i]+1);
+      this.$data.counts[i]+=1;
       
        //반드시 앞에 this붙여야지 적용됨
       // this.$set(obj, key, value)
