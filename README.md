@@ -9,7 +9,7 @@
 2. [HTML5 / CSS3/ ECMAScript 6(ES6) 이후 문법](#-html5--css3-ecmascript-6es6-이후-문법)
 3. [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증](#-spring-boot-기반-restful-back-end-api--spring-security--jwt-인증)
 4. [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)](#-oracle-db-모델링--sql--mybatissql-developer의-data-modeler-이용)
-5. [Vue.js 기반 Front-End 프로그래밍](#-vue-js-기반-front-end-프로그래밍) **[56h]**
+5. [Vue.js 기반 Front-End 프로그래밍](#-vuejs-기반-front-end-프로그래밍) **[56h]**
 6. [ㅇ](#-Week-6) **[40h]**
 7. [ㅇ](#-Week-7) **[40h]**
 8. [ㅇ](#-Week-8) **[16h]**
