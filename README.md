@@ -9,7 +9,7 @@
 2. [HTML5 / CSS3/ ECMAScript 6(ES6) 이후 문법](#-html5--css3-ecmascript-6es6-이후-문법)
 3. [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증](#-spring-boot-기반-restful-back-end-api--spring-security--jwt-인증)
 4. [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)](#-oracle-db-모델링--sql--mybatissql-developer의-data-modeler-이용)
-5. [ㅇ](#-Week-5) **[56h]**
+5. [Vue.js 기반 Front-End 프로그래밍](#-vue-js-기반-front-end-프로그래밍) **[56h]**
 6. [ㅇ](#-Week-6) **[40h]**
 7. [ㅇ](#-Week-7) **[40h]**
 8. [ㅇ](#-Week-8) **[16h]**
@@ -43,7 +43,7 @@
 - 9.15 : 팀미니프로젝트
 
 ## 📒 [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증]
-#### [9.15-] Spring Framework (day18~day21, day26~)
+#### [9.15-10.12] Spring Framework (day18~day21, day26~day32)
 - 9.15 : 팀미니프로젝트, STS, Spring Framework, Spring MVC, Maven
 - 9.16 : Servlet, Jsp, Spring Framework, IoC, Beans, POJO, DI, 결합도, 응집도
 - 9.17 : Spring 구조 DI(Constructor, property)
@@ -55,20 +55,22 @@
 - 10.7 : Spring Restful API, Lombok
 - 10.8 : Spring JPA
 - 10.12 : Spring Security
-- 10.13 : Vue.js 개발환경 세팅 및 기초
-- 10.14 : 뷰 인스턴스, 뷰 컴포넌트, 부동산 웹 예제
-- 10.15 : Vue props,  뷰 컴포넌트 간 통신
-- 10.18 : Vue router, Vue Axios
 
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
-#### [9.24-] Spring Framework (day22~day26)
+#### [9.24-] Oracle DataBase (day22~day26)
 - 9.24 : Orcale 19C DBMS, Oracle SQL Developer Setting
 - 9.27 : SQL(DDL, DML, DCL), 제약조건
 - 9.28 : 그룹(집합)함수, 숫자&문자... 함수, 정규식, JOIN
 - 9.29 : SubQuery, 스칼라, 인라인 뷰, View, Sequence, Union
 - 9.30 : PL/SQL
 
-## 📘 
+## 📘 [Vue.js 기반 Front-End 프로그래밍]
+#### [10.13-] Spring Framework (day33~)
+- 10.13 : Vue.js 개발환경 세팅 및 기초
+- 10.14 : 뷰 인스턴스, 뷰 컴포넌트, 부동산 웹 예제
+- 10.15 : Vue props,  뷰 컴포넌트 간 통신
+- 10.18 : Vue router, Vue Axios
+- 
 ## 📔
 ## 📓
 ## 📚 
