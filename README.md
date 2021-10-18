@@ -58,6 +58,7 @@
 - 10.13 : Vue.js 개발환경 세팅 및 기초
 - 10.14 : 뷰 인스턴스, 뷰 컴포넌트, 부동산 웹 예제
 - 10.15 : Vue props,  뷰 컴포넌트 간 통신
+- 10.18 : Vue router, Vue Axios
 
 ## 📗 [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)]
 #### [9.24-] Spring Framework (day22~day26)
