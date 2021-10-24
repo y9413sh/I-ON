@@ -10,7 +10,7 @@
 3. [Spring Boot 기반 RestFul Back-end API / Spring Security / JWT 인증](#-spring-boot-기반-restful-back-end-api--spring-security--jwt-인증)
 4. [Oracle DB 모델링 / SQL / MyBatis(SQL Developer의 Data Modeler 이용)](#-oracle-db-모델링--sql--mybatissql-developer의-data-modeler-이용)
 5. [Vue.js 기반 Front-End 프로그래밍](#-vuejs-기반-front-end-프로그래밍)
-6. [팀프로젝트 주제 : 커머스](#팀프로젝트-주제--커머스)
+6. [팀프로젝트 주제 : 커머스](#-팀프로젝트-주제--커머스)
 
 
 ## 📕 Java (클래스 및 인터페이스, 컬렉션, IO 위주) 
