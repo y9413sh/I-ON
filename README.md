@@ -68,7 +68,7 @@
 - 10.18 : Vue router, Vue Axios, 인스타그램 예제
 - 10.19 : Vue mitt, 인스타그램 예제, Vuex
 
-## 📔 [팀프로젝트 주제 : 커머스]
-#### [10.21-] 
-## 📓
-## 📚 
+## 📚 [팀프로젝트 주제 : 커머스]
+#### [10.20-] [SpringCoffee](https://github.com/KOSA-I-ON-3TEAM/SpringCoffee)
+
+## 📓 
