@@ -69,6 +69,4 @@
 - 10.19 : Vue mitt, 인스타그램 예제, Vuex
 
 ## 📚 [팀프로젝트 주제 : 커머스]
-#### [10.20-] [SpringCoffee](https://github.com/KOSA-I-ON-3TEAM/SpringCoffee)
-
-## 📓 
+#### [10.20-11.21] [SpringCoffee](https://github.com/KOSA-I-ON-3TEAM/SpringCoffee)
